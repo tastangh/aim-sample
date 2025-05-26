@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2016-2023 AIM GmbH <info@aim-online.com>
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+# MIL specific Makefile for the Linux PCI driver
+ 
+VERSION_FILE := src/mil/aim_version_mil.h
+
+AIM_MODULE := aim_mil
+
+AYE_SUPPORT := y
+AYE_DS_SUPPORT := y
+ZYNQMP_SUPPORT := y
+ARTIX7_SUPPORT := y
+ARTIXUS_SUPPORT := y
+INTERNAL_MONITOR_FILES := n
+
+EXTRA_CFLAGS += -DAIM_MIL -D_AMC1553
+EXTRA_CFLAGS += -I$(M)/src/mil -I$(M)/include/mil -I$(MIL_TSW)/include -I$(MIL_TSW)/generated 
+
+aim_mil-prot-objs := src/mil/aim_pci_module_mil.o src/mil/aim_pci_device_mil.o src/mil/aim_tsw_mil.o \
+                     src/mil/aim_ioctl_mil.o src/mil/aim_irq_mil.o src/mil/aim_nl_mil.o src/mil/aim_mil_ayx_dma.o \
+                     src/libaim_mil_tsw.o

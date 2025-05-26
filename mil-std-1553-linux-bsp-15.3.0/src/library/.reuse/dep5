@@ -1,0 +1,24 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mil-api
+Upstream-Contact: AIM GmbH <info@aim-online.com>
+Source: http://bitbucket:7990/scm/mil/mil-api.git
+
+Files: add-ons/LabView/* add-ons/LabView-Test/* Doc/* add-ons/python/c2python Lint/* src/os/windows/labview/* Debug/* projects/* 
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT
+
+Files: add-ons/python/bsp_test/test_board/update/testesmart.txt
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT
+
+Files: *.gitignore *.sln *.cws *.prj *.jpg *.tex *.template *.vc* *.*proj* *.lib *.html *.vi *Docker* Jenkins* *doxy* *.arc *.exe *.docx *.pdf *.chm *.zip *.aps *.config *.dll *.json testesmart.txt *.cat *.prc *.hrc
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT
+
+Files: autom4te.cache/* *.m4 install-sh ltmain.sh missing py-compile compile config.* depcomp configure generated/AiMilVersion.h 
+Copyright: 1992-2014 Free Software Foundation, Inc.
+License: MIT
+
+Files: sample/autom4te.cache/* *.m4 sample/install-sh sample/ltmain.sh sample/missing sample/py-compile sample/compile sample/config.* sample/depcomp sample/configure
+Copyright: 1992-2014 Free Software Foundation, Inc.
+License: MIT

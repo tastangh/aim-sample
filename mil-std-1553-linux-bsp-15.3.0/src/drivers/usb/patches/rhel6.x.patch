@@ -1,0 +1,22 @@
+diff --git a/src/aim_usb.h b/src/aim_usb.h
+index 1709b83..e977506 100644
+--- a/src/aim_usb.h
++++ b/src/aim_usb.h
+@@ -12,7 +12,7 @@
+ #include <linux/version.h>
+ 
+ 
+-#if LINUX_VERSION_CODE < KERNEL_VERSION(2,6,33)
++#if LINUX_VERSION_CODE < KERNEL_VERSION(2,6,32)
+ 
+ 
+ #include <linux/err.h>
+@@ -27,7 +27,7 @@ static inline long IS_ERR_OR_NULL(const void *ptr)
+ #endif
+ 
+ 
+-#if LINUX_VERSION_CODE < KERNEL_VERSION(2,6,37)
++#if LINUX_VERSION_CODE < KERNEL_VERSION(2,6,32)
+ 
+ #include <linux/string.h>
+ #include <linux/vmalloc.h>

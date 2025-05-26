@@ -1,0 +1,41 @@
+#!/bin/sh
+# SPDX-FileCopyrightText: 2013-2022 AIM GmbH <info@aim-online.com>
+# SPDX-License-Identifier: MIT
+#
+# Starts ANS1553 daemon.
+#
+
+
+start() {
+ 	echo -n "Starting ANS1553 daemon: "
+ 	
+	start-stop-daemon -S -p /var/run/ans1553.pid -b -m --exec /usr/bin/ANS1553
+	echo "OK"
+}
+stop() {
+	echo -n "Stopping ANS1553 daemon: "
+	start-stop-daemon -K -p /var/run/ans1553.pid
+	echo "OK"
+}
+restart() {
+	stop
+	start
+}
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart|reload)
+  	restart
+	;;
+  *)
+	echo "Usage: $0 {start|stop|restart}"
+	exit 1
+esac
+
+exit $?
+

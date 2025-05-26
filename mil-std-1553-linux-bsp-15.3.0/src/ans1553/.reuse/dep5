@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ans1553
+Upstream-Contact: AIM GmbH <info@aim-online.com>
+Source: http://bitbucket:7990/scm/mil/ans1553.git
+
+Files: *.gitignore *.vcxproj *.sln *.rc .cproject .project .settings/* README
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT
+
+Files: autom4te.cache/* *.m4 install-sh ltmain.sh missing py-compile compile config.* config.h.in depcomp configure generated/AiMilVersion.h 
+Copyright: 1992-2014 Free Software Foundation, Inc.
+License: MIT

@@ -1,0 +1,65 @@
+From a1cc54e451aa8c7fe2340a8377027e54f3a1d0d6 Mon Sep 17 00:00:00 2001
+From: Martin Haag <haag@aim-online.com>
+Date: Fri, 10 Jul 2020 13:23:23 +0200
+Subject: [PATCH] PATCHES: updated rhel7 patch
+
+---
+ src/aim_usb_nl.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+
+diff --git a/src/aim_usb_nl.c b/src/aim_usb_nl.c
+index 372f5f7..6c4eac8 100644
+--- a/src/aim_usb_nl.c
++++ b/src/aim_usb_nl.c
+@@ -34,7 +34,8 @@ int aim_usb_nl_setup(struct aim_usb_interface* intf)
+     aim_usb_intf_dbg(intf, "Family has %zu operations", nl_setup->num_ops);
+     aim_usb_intf_dbg(intf, "Family has %zu multicast groups", nl_setup->num_groups);
+ 
+-#if (LINUX_VERSION_CODE >= KERNEL_VERSION(4,10,0))
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,10,0)
++  #if RHEL_MINOR >= 5
+     nl_setup->family.module   = THIS_MODULE;
+     nl_setup->family.ops      = nl_setup->ops;
+     nl_setup->family.n_ops    = nl_setup->num_ops;
+@@ -42,9 +43,10 @@ int aim_usb_nl_setup(struct aim_usb_interface* intf)
+     nl_setup->family.n_mcgrps = nl_setup->num_groups;
+ 
+     ret = genl_register_family(&nl_setup->family);
+-#elif LINUX_VERSION_CODE >= KERNEL_VERSION(3,13,0)
++  #else
+     ret = _genl_register_family_with_ops_grps(&nl_setup->family, nl_setup->ops, nl_setup->num_ops,
+                                               nl_setup->groups, nl_setup->num_groups);
++  #endif
+ #else
+     {
+         size_t i = 0;
+@@ -125,7 +127,7 @@ void aim_usb_nl_release(struct aim_usb_interface* intf)
+ 
+         genl_unregister_family(&nl_setup->family);
+ 
+-        #if LINUX_VERSION_CODE < KERNEL_VERSION(3,13,0)
++        #if LINUX_VERSION_CODE < KERNEL_VERSION(3,10,0)
+ 
+         /* Before kernel 3.13, the genl_multicast_group structure have been dynamically allocated
+          * and need to be freed.
+@@ -148,7 +150,7 @@ static int __inline__ aim_usb_nl_get_genl_group_id(struct aim_usb_interface* int
+ {
+     BUG_ON(!intf || family_id >= intf->nl_setup.num_groups);
+ 
+-#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,13,0)
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,10,0)
+     return family_id;
+ #else
+     return intf->nl_setup.groups[family_id].id;
+@@ -211,7 +213,7 @@ int aim_usb_nl_mc_send_sba(struct aim_usb_interface* intf, int family_group, int
+         return ret;
+     }
+ 
+-#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,13,0)
++#if LINUX_VERSION_CODE >= KERNEL_VERSION(3,10,0)
+     ret = genlmsg_multicast(&nl_setup->family, skb, 0, genl_group, GFP_ATOMIC);
+ #else
+     ret = genlmsg_multicast(skb, 0, genl_group, 0);
+-- 
+2.11.0
+

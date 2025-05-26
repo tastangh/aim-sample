@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/Module.symvers := sed 's/ko$$/o/' /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/modules.order | scripts/mod/modpost  -a  -w -o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,144 @@
+; SPDX-FileCopyrightText: 2011-2024 AIM GmbH <info@aim-online.com>
+; SPDX-License-Identifier: MIT
+
+; ############################################################################
+; ############################################################################
+; #              MIL-STD-1553 and STANAG3910 update file
+; ############################################################################
+; ############################################################################
+
+; ############################################################################
+; # Artix7
+; ############################################################################
+
+{78,FFFFFFF0,FFFFFF10} ;AMEE1553-1
+{78,FFFFF0F0,FFFF1010} ;AMEE1553-2
+{79,FFFFFFF0,FFFFFF10} ;AM2E1553-1
+{79,FFFFF0F0,FFFF1010} ;AM2E1553-2
+
+BIFI 0 MLCA 0x70 _MERGE
+
+COLDBOOT
+
+
+; ############################################################################
+; # ArtixUS
+; ############################################################################
+
+{B5,FFFFFFF0,FFFFFF10} ;AXCX1553-1
+{B5,FFFFF0F0,FFFF1010} ;AXCX1553-2
+{B5,F0F0F0F0,10101010} ;AXCX1553-4
+
+BIFI 0 MLCA 0x70 _MERGE_PRI; MLCA5310_MERGE_PRI.bin
+BIFI 1 MLCA 0x70 _MERGE_SEC; MLCA5310_MERGE_SEC.bin
+;BIFI 10 XMC_ 0x88; XMC_5210.bin; Not part of the BSP update
+
+COLDBOOT
+
+
+; ############################################################################
+; # ZynqMP
+; ############################################################################
+
+{14,FFFFF0F0,FFFF3010} ;APXX3910
+{14,FFFFF0F0,FFFF7010} ;APXXEFEx
+{1B,FFFFF0F0,FFFF3010} ;APEX3910
+{1B,FFFFF0F0,FFFF7010} ;APEXEFEx
+{48,FFFFF0F0,FFFF3010} ;ACE3910
+{48,FFFFF0F0,FFFF7010} ;ACEEFEx
+{B4,FFFFF0F0,FFFF3010} ;AXC3910
+{B4,FFFFF0F0,FFFF7010} ;AXCEFEx
+
+PACKAGE apxx3910-update.tar.gz
+
+COLDBOOT
+
+{a9,FFFFF0F0,FFFF1010}; ASC1553-2
+
+PACKAGE asc1553-gen2-update.tar.gz
+
+COLDBOOT
+
+; ############################################################################
+; # AYS1553
+; ############################################################################
+
+{a8,FFFFFFF0,FFFFFF10}; ASC1553
+
+PACKAGE asc1553-update.tar.gz
+
+COLDBOOT
+
+{76,FFFFFFF0,FFFFFF10}; AME1553-1
+{77,FFFFFFF0,FFFFFF10}; AME1553-1-AP
+
+PACKAGE ame1553-update.tar.gz
+
+COLDBOOT
+
+; ############################################################################
+; # AyE
+; ############################################################################
+
+; ---------------------------------------------------------
+; -- AyE Generic section, programmed on all AyE devices ---
+; ---------------------------------------------------------
+; We need only one section for AyE
+; If a components extension is 0xFFFF within the
+; Novram the update is skipped automatically.
+
+{58,FFFFFFF0,FFFFFF10} ;AMCX1553-1
+{58,FFFFF0F0,FFFF1010} ;AMCX1553-2
+{58,FFFFF0F0,FFFFA0A0} ;AMCX1553-4
+
+{59,FFFFFFF0,FFFFFF10} ;AMCE1553-1
+{59,FFFFF0F0,FFFF1010} ;AMCE1553-2
+{59,FFFFF0F0,FFFFA0A0} ;AMCE1553-4
+
+{75,FFFFFFF0,FFFFFF10} ;AEC1553-1
+{75,FFFFFFF0,FFFFFFA0} ;AEC1553-2
+
+{B0,FFFFFFF0,FFFFFF10} ;AXC1553-1
+{B0,FFFFF0F0,FFFF1010} ;AXC1553-2
+{B0,FFFFF0F0,FFFFA0A0} ;AXC1553-4
+
+{B2,FFFFFFF0,FFFFFF10} ;AXE1553-1
+{B2,FFFFF0F0,FFFF1010} ;AXE1553-2
+{B2,FFFFF0F0,FFFFA0A0} ;AXE1553-4
+
+{B3,FFFFFFF0,FFFFFF10} ;ASE1553-1
+{B3,FFFFF0F0,FFFF1010} ;ASE1553-2
+{B3,FFFFF0F0,FFFFA0A0} ;ASE1553-4
+
+{98,FFFFFFF0,FFFFFF10} ;APE1553-1
+{98,FFFFF0F0,FFFF1010} ;APE1553-2
+{98,FFFFF0F0,FFFFA0A0} ;APE1553-4
+
+{99,FFFFFFF0,FFFFFF10} ;APXE1553-1
+{99,FFFFF0F0,FFFF1010} ;APXE1553-2
+{99,FFFFF0F0,FFFFA0A0} ;APXE1553-4
+
+{44,FFFFFFF0,FFFFFF10} ;ACE1553-1
+{44,FFFFF0F0,FFFF1010} ;ACE1553-2
+{44,FFFFF0F0,FFFFA0A0} ;ACE1553-4
+
+{45,FFFFFFF0,FFFFFF10} ;ACXX1553-1
+{45,FFFFF0F0,FFFF1010} ;ACXX1553-2
+{45,FFFFF0F0,FFFFA0A0} ;ACXX1553-4
+
+; We support the update AyE from BSP V11.11 onwards
+IF(TSWVER<20.17.0356)
+ ABORT "This update requires a system driver from BSP V11.11 or newer."
+
+
+NVR_CHK(0xC, 0x800, 0)
+ COMPONENT 6 FLANE_MLCA 0xF470
+NVR_CHK(0xC, 0x800, 0)
+ COLDBOOT_RESTART
+
+COMPONENT 1 BIP_ 0xF480
+COMPONENT 2 BIP_ 0xF484
+COMPONENT 6 MLCA 0xF470
+
+
+CSM 0003753A

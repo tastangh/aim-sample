@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/Module.symvers := sed 's/ko$$/o/' /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/modules.order | scripts/mod/modpost  -a   -o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/Module.symvers -e -i Module.symvers   -T -

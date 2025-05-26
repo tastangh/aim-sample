@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2017-2021 AIM GmbH <info@aim-online.com>
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+# MIL specific Makefile for the Linux USB driver
+ 
+VERSION_FILE := src/mil/aim_version_mil.h
+
+AIM_MODULE := aim1553usb
+
+EXTRA_CFLAGS += -DAIM_MIL -D_AIM_LINUX -D_AIM_SYSDRV -D_AIM_1553_SYSDRV_USB -D_LINUX -D_AMC1553 -I$(MIL_TSW) -I$(MIL_TSW)/include -I$(MIL_TSW)/src/monitor/pmc
+
+
+aim1553usb-prot-objs := src/mil/aim_usb_mil.o src/libaim_mil_tsw.o

@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mil-tsw
+Upstream-Contact: AIM GmbH <info@aim-online.com>
+Source: http://bitbucket:7990/scm/mil/mil-tsw.git
+
+Files: .settings/* projects/*
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT
+
+Files: *.gitignore  *.vcxproj *.sln *.cws *.prj *.vcproj *.md dirs
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT
+
+Files: Jenkinsfile src/platform/ayx/XS_Debug_map.txt src/platform/ayx/XSmap.txt src/emergency/ayx/XSmap.txt src/platform_win_pci/sources src/platform_win_usb/sources
+Copyright: 2022 AIM GmbH <info@aim-online.com>
+License: MIT

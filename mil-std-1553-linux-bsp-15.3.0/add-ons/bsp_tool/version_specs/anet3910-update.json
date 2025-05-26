@@ -1,0 +1,15 @@
+{
+    "AIM-BSP-Common": "4.36.0",
+    "ANS-Common": "mil/2.2.5",
+    "eSmart": "1.11.0",
+    "BIP_2018": "3.3.21",
+    "BIP_2030": "3.2.9",
+    "BIP_2070": "3.0.2",
+    "MLCA2530": "3.3.96",
+    "MIL-TSW": "22.32.0",
+    "Linux-XLNX": "6.1.30-aim2",
+    "AIM-Buildroot": "2023.08-aim3",
+    "MIL-API": "24.22.0",
+    "ANET-WebConf": "2.2.3",
+    "ANS1553": "21.3.0"
+}

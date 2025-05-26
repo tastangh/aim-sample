@@ -1,0 +1,6 @@
+#define MAJOR_VERSION 6
+#define MINOR_VERSION 2
+#define PATCH_VERSION 0
+#define EXTRA_VERSION
+#define VERSION_STRING_FULL "6.2.0"
+#define BUILD_DATE "Fri, 16 May 2025 20:02:36 +0300"

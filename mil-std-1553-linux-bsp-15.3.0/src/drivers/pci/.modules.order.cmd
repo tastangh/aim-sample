@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/modules.order := {   echo /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.ko; :; } | awk '!x[$$0]++' - > /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/modules.order

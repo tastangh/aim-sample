@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pci-driver-linux
+Upstream-Contact: AIM GmbH <info@aim-online.com>
+Source: http://bitbucket:7990/scm/drv/pci-driver-linux.git
+
+Files: patches/*
+Copyright: 2021 AIM GmbH <info@aim-online.com>
+License: GPL-2.0-or-later
+
+Files: *.gitignore *.txt
+Copyright: 2021 AIM GmbH <info@aim-online.com>
+License: MIT

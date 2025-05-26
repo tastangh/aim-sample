@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.mod.o;  true

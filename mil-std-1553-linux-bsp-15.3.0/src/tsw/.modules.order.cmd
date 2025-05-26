@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/modules.order := {   echo /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko; :; } | awk '!x[$$0]++' - > /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/modules.order

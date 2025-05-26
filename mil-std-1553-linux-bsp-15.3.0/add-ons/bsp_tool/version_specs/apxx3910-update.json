@@ -1,0 +1,15 @@
+{
+    "AIM-BSP-Common": "4.36.0",
+    "FSBL": "MLCA3330/1.8.84/FSBL-PMUFW_2021.2-AIM1",
+    "PMU_FW": "MLCA3330/1.8.84/FSBL-PMUFW_2021.2-AIM1",
+    "ATF": "2021.2",
+    "U-Boot": "2021.2-aim2",
+    "BIP_3318": "3.3.21",
+    "BIP_3330": "3.2.9",
+    "BIP_3370": "3.0.2",
+    "XMC_3230": "1.0.0",
+    "MLCA3330": "1.9.85",
+    "MIL-TSW": "22.32.0",
+    "Linux-XLNX-ZynqMP": "5.10.0-aim5",
+    "AIM-Buildroot-ZynqMP": "2021.02-aim3"
+}

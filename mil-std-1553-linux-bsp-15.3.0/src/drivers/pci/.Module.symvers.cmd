@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/Module.symvers := sed 's/ko$$/o/' /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/modules.order | scripts/mod/modpost  -a   -o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/Module.symvers -e -i Module.symvers   -T -

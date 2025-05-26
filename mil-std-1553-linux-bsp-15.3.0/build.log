@@ -1,0 +1,1147 @@
+**** Performing install of MIL Linux BSP at Fri May 16 08:01:13 PM +03 2025 ****
+
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for ranlib... ranlib
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for vfork.h... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether ln -s works... yes
+checking for python... no
+checking for python2... no
+checking for python3... /usr/bin/python3
+checking for python version... 3.12
+checking for python platform... linux
+checking for GNU default python prefix... ${prefix}
+checking for GNU default python exec_prefix... ${exec_prefix}
+checking for python script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.12/site-packages
+checking for python extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.12/site-packages
+checking for fcntl.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/ioctl.h... yes
+checking for unistd.h... (cached) yes
+checking for inline... inline
+checking for pid_t... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for gettimeofday... yes
+checking for memset... yes
+checking for select... yes
+checking for strcasecmp... yes
+checking for strerror... yes
+checking for pthread_create in -lpthread... yes
+checking for clock_gettime in -lrt... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libnl-genl-3.0 >= 3.1... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating add-ons/python/Makefile
+config.status: creating add-ons/python/aim_mil/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+=== configuring in sample (/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  'AIM_BSP_COMMON=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common' 'MIL_TSW=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw' 'ANS_COMMON=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common' 'PCI_DRIVER_LINUX=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci' 'ESMART=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart' --cache-file=/dev/null --srcdir=.
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for ranlib... ranlib
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating SmartLib/Makefile
+config.status: creating SmartLib/src/Makefile
+config.status: creating SmartCon/Makefile
+config.status: creating SmartCon/src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw'
+scripts/generate_version_file.sh
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw CONFIG_AIM_PCI=y
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bc.o
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bc.c: In function ‘api_bc_acyc_prep_and_send_transfer.part.0’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bc.c:2693:1: warning: the frame size of 1184 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 2693 | }
+      | ^
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.o
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_bc_br_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:1228:1: warning: the frame size of 1080 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 1228 | } /* end: api_bite_bc_br_test */
+      | ^
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_bc_rt_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:1758:1: warning: the frame size of 1416 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 1758 | } /* end: api_bite_bc_rt_test */
+      | ^
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_rt_rt_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:2368:1: warning: the frame size of 1176 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 2368 | } /* end: api_bite_rt_rt_test */
+      | ^
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_minor_framing_time_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:3661:1: warning: the frame size of 1072 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 3661 | } /* end: api_bite_minor_framing_time_test */
+      | ^
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bm.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_buf.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_cal.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_dque.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_glob.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_ini.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_io.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_ir.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_lic.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_main.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_opr.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_rep.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_rt.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_sys.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_track.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_dts.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/amc_hw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/AiMyMon.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_tasks_linux.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_scope.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_utility.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_exec_sys.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_versions.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_fifo.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_fw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/ai_tsw_os_linux.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_linux_module.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver_aye.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver_aye_pxi.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver_aye_milscope.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver_ays.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver_artix7.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_pci_driver_artixus.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i_x_ini.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i_x_buf.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i_x_sys.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i39_glob.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i39_empty_stub.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.o
+  MODPOST /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/Module.symvers
+WARNING: modpost: "aim_gen_ays_novram_get" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+WARNING: modpost: "aim_gen_ays_novram_finalize" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+WARNING: modpost: "aim_gen_ays_novram_set" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+WARNING: modpost: "aim_gen_ays_version_read" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.mod.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+install -m 664 /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/libaim_mil_tsw.o_shipped;
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci'
+Generating Full Version string from Git repository
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci CONFIG_AIM_MIL=y modules
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_pci_module.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_pci_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_apxe_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_ioctl.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_timer.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_dma.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_rw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_pci_mem.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_ays_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_pci_com_channel.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_nl.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_aio.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_pci_module_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_pci_device_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_tsw_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_ioctl_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_irq_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_nl_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_mil_ayx_dma.o
+  SHIPPED /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/libaim_mil_tsw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_aye_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_aye_ds_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_zynqmp_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_zynqmp_dma.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_artix7_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_artixus_device.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_artixus_dma.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_pci_mymon.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.o
+  MODPOST /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/Module.symvers
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.mod.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw'
+scripts/generate_version_file.sh
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw CONFIG_AIM_USB=y
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bc.o
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bc.c: In function ‘api_bc_acyc_prep_and_send_transfer.part.0’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bc.c:2693:1: warning: the frame size of 1184 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 2693 | }
+      | ^
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.o
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_bc_br_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:1228:1: warning: the frame size of 1080 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 1228 | } /* end: api_bite_bc_br_test */
+      | ^
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_bc_rt_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:1758:1: warning: the frame size of 1416 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 1758 | } /* end: api_bite_bc_rt_test */
+      | ^
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_rt_rt_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:2368:1: warning: the frame size of 1176 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 2368 | } /* end: api_bite_rt_rt_test */
+      | ^
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c: In function ‘api_bite_minor_framing_time_test’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bite.c:3661:1: warning: the frame size of 1072 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 3661 | } /* end: api_bite_minor_framing_time_test */
+      | ^
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_bm.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_buf.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_cal.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_dque.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_glob.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_ini.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_io.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_ir.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_lic.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_main.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_opr.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_rep.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_rt.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_sys.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_track.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_dts.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/amc_hw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/AiMyMon.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_tasks_linux.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_scope.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_utility.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_exec_sys.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_versions.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/api_fifo.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_fw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/ai_tsw_os_linux.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_linux_module.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i_x_ini.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i_x_buf.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i_x_sys.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i39_glob.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/i39_empty_stub.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_usb_driver.o
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_usb_driver.c: In function ‘mil_hw_discretes_info_read’:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_hw_usb_driver.c:1013:14: warning: unused variable ‘i’ [-Wunused-variable]
+ 1013 |     AiUInt32 i;
+      |              ^
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/src/mil_usb_mem_mirror.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.o
+  MODPOST /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/Module.symvers
+WARNING: modpost: "aim_usb_hw_write" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+WARNING: modpost: "aim_usb_hw_read" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+WARNING: modpost: "aim_usb_hw_tcp_reg_write" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+WARNING: modpost: "aim_usb_hw_tcp_reg_read" [/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko] undefined!
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.mod.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+install -m 664 /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/libaim_mil_tsw.o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/libaim_mil_tsw.o_shipped;
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb'
+Generating Full Version string from Git repository
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb CONFIG_AIM_MIL=y modules
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_fs.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_interface.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_com_channel.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_hw.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_ays.o
+In file included from ./include/linux/kernel.h:15,
+                 from ./include/asm-generic/bug.h:20,
+                 from ./arch/x86/include/asm/bug.h:93,
+                 from ./include/linux/bug.h:5,
+                 from ./include/linux/mmdebug.h:5,
+                 from ./include/linux/gfp.h:5,
+                 from ./include/linux/slab.h:15,
+                 from /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_ays.c:9:
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_ays.c: In function ‘aim_usb_ays_hw_read’:
+./include/linux/minmax.h:20:35: warning: comparison of distinct pointer types lacks a cast
+   20 |         (!!(sizeof((typeof(x) *)1 == (typeof(y) *)1)))
+      |                                   ^~
+./include/linux/minmax.h:26:18: note: in expansion of macro ‘__typecheck’
+   26 |                 (__typecheck(x, y) && __no_side_effects(x, y))
+      |                  ^~~~~~~~~~~
+./include/linux/minmax.h:36:31: note: in expansion of macro ‘__safe_cmp’
+   36 |         __builtin_choose_expr(__safe_cmp(x, y), \
+      |                               ^~~~~~~~~~
+./include/linux/minmax.h:45:25: note: in expansion of macro ‘__careful_cmp’
+   45 | #define min(x, y)       __careful_cmp(x, y, <)
+      |                         ^~~~~~~~~~~~~
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_ays.c:327:35: note: in expansion of macro ‘min’
+  327 |         command_buffer->in_size = min(aim_ays_usb_transfer_size, len - transferred_bytes);
+      |                                   ^~~
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_interrupt.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_nl.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_apu.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/apu/aim_usb_nc.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/mil/aim_usb_mil.o
+  SHIPPED /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/libaim_mil_tsw.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.o
+  MODPOST /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/Module.symvers
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.mod.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common'
+make  all-recursive
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common'
+Making all in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/src'
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Options.o -MD -MP -MF .deps/libans_common_a-Ai_Options.Tpo -c -o libans_common_a-Ai_Options.o `test -f 'Ai_Options.c' || echo './'`Ai_Options.c
+mv -f .deps/libans_common_a-Ai_Options.Tpo .deps/libans_common_a-Ai_Options.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Strncpy.o -MD -MP -MF .deps/libans_common_a-Ai_Strncpy.Tpo -c -o libans_common_a-Ai_Strncpy.o `test -f 'Ai_Strncpy.c' || echo './'`Ai_Strncpy.c
+mv -f .deps/libans_common_a-Ai_Strncpy.Tpo .deps/libans_common_a-Ai_Strncpy.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Strdup.o -MD -MP -MF .deps/libans_common_a-Ai_Strdup.Tpo -c -o libans_common_a-Ai_Strdup.o `test -f 'Ai_Strdup.c' || echo './'`Ai_Strdup.c
+mv -f .deps/libans_common_a-Ai_Strdup.Tpo .deps/libans_common_a-Ai_Strdup.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Cmdline.o -MD -MP -MF .deps/libans_common_a-Ai_Cmdline.Tpo -c -o libans_common_a-Ai_Cmdline.o `test -f 'Ai_Cmdline.c' || echo './'`Ai_Cmdline.c
+mv -f .deps/libans_common_a-Ai_Cmdline.Tpo .deps/libans_common_a-Ai_Cmdline.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Log.o -MD -MP -MF .deps/libans_common_a-ANS_Log.Tpo -c -o libans_common_a-ANS_Log.o `test -f 'ANS_Log.c' || echo './'`ANS_Log.c
+mv -f .deps/libans_common_a-ANS_Log.Tpo .deps/libans_common_a-ANS_Log.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Log.o -MD -MP -MF .deps/libans_common_a-Ai_Log.Tpo -c -o libans_common_a-Ai_Log.o `test -f 'Ai_Log.c' || echo './'`Ai_Log.c
+mv -f .deps/libans_common_a-Ai_Log.Tpo .deps/libans_common_a-Ai_Log.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Sem.o -MD -MP -MF .deps/libans_common_a-Ai_Sem.Tpo -c -o libans_common_a-Ai_Sem.o `test -f 'Ai_Sem.c' || echo './'`Ai_Sem.c
+mv -f .deps/libans_common_a-Ai_Sem.Tpo .deps/libans_common_a-Ai_Sem.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Logindex.o -MD -MP -MF .deps/libans_common_a-Ai_Logindex.Tpo -c -o libans_common_a-Ai_Logindex.o `test -f 'Ai_Logindex.c' || echo './'`Ai_Logindex.c
+mv -f .deps/libans_common_a-Ai_Logindex.Tpo .deps/libans_common_a-Ai_Logindex.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Date.o -MD -MP -MF .deps/libans_common_a-Ai_Date.Tpo -c -o libans_common_a-Ai_Date.o `test -f 'Ai_Date.c' || echo './'`Ai_Date.c
+mv -f .deps/libans_common_a-Ai_Date.Tpo .deps/libans_common_a-Ai_Date.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Time.o -MD -MP -MF .deps/libans_common_a-Ai_Time.Tpo -c -o libans_common_a-Ai_Time.o `test -f 'Ai_Time.c' || echo './'`Ai_Time.c
+mv -f .deps/libans_common_a-Ai_Time.Tpo .deps/libans_common_a-Ai_Time.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Client.o -MD -MP -MF .deps/libans_common_a-ANS_Client.Tpo -c -o libans_common_a-ANS_Client.o `test -f 'ANS_Client.c' || echo './'`ANS_Client.c
+ANS_Client.c: In function ‘AnsClient_discover_thread’:
+ANS_Client.c:277:12: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+  277 |         if (NTSOCKET_RET_OK != ret)
+      |            ^
+mv -f .deps/libans_common_a-ANS_Client.Tpo .deps/libans_common_a-ANS_Client.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Opterror.o -MD -MP -MF .deps/libans_common_a-Ai_Opterror.Tpo -c -o libans_common_a-Ai_Opterror.o `test -f 'Ai_Opterror.c' || echo './'`Ai_Opterror.c
+mv -f .deps/libans_common_a-Ai_Opterror.Tpo .deps/libans_common_a-Ai_Opterror.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Thread.o -MD -MP -MF .deps/libans_common_a-ANS_Thread.Tpo -c -o libans_common_a-ANS_Thread.o `test -f 'ANS_Thread.c' || echo './'`ANS_Thread.c
+mv -f .deps/libans_common_a-ANS_Thread.Tpo .deps/libans_common_a-ANS_Thread.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Socket.o -MD -MP -MF .deps/libans_common_a-Ai_Socket.Tpo -c -o libans_common_a-Ai_Socket.o `test -f 'Ai_Socket.c' || echo './'`Ai_Socket.c
+mv -f .deps/libans_common_a-Ai_Socket.Tpo .deps/libans_common_a-Ai_Socket.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Sockll.o -MD -MP -MF .deps/libans_common_a-Ai_Sockll.Tpo -c -o libans_common_a-Ai_Sockll.o `test -f 'Ai_Sockll.c' || echo './'`Ai_Sockll.c
+mv -f .deps/libans_common_a-Ai_Sockll.Tpo .deps/libans_common_a-Ai_Sockll.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Server.o -MD -MP -MF .deps/libans_common_a-ANS_Server.Tpo -c -o libans_common_a-ANS_Server.o `test -f 'ANS_Server.c' || echo './'`ANS_Server.c
+ANS_Server.c: In function ‘AnsServer_send_info’:
+ANS_Server.c:277:5: warning: implicit declaration of function ‘gethostname’; did you mean ‘getsockname’? [-Wimplicit-function-declaration]
+  277 |     gethostname(bcast_buffer.host_name, sizeof(host_name));
+      |     ^~~~~~~~~~~
+      |     getsockname
+mv -f .deps/libans_common_a-ANS_Server.Tpo .deps/libans_common_a-ANS_Server.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Socksv.o -MD -MP -MF .deps/libans_common_a-Ai_Socksv.Tpo -c -o libans_common_a-Ai_Socksv.o `test -f 'Ai_Socksv.c' || echo './'`Ai_Socksv.c
+mv -f .deps/libans_common_a-Ai_Socksv.Tpo .deps/libans_common_a-Ai_Socksv.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-Ai_Socktl.o -MD -MP -MF .deps/libans_common_a-Ai_Socktl.Tpo -c -o libans_common_a-Ai_Socktl.o `test -f 'Ai_Socktl.c' || echo './'`Ai_Socktl.c
+mv -f .deps/libans_common_a-Ai_Socktl.Tpo .deps/libans_common_a-Ai_Socktl.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Multiplexer.o -MD -MP -MF .deps/libans_common_a-ANS_Multiplexer.Tpo -c -o libans_common_a-ANS_Multiplexer.o `test -f 'ANS_Multiplexer.c' || echo './'`ANS_Multiplexer.c
+mv -f .deps/libans_common_a-ANS_Multiplexer.Tpo .deps/libans_common_a-ANS_Multiplexer.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_LinkInitFrame.o -MD -MP -MF .deps/libans_common_a-ANS_LinkInitFrame.Tpo -c -o libans_common_a-ANS_LinkInitFrame.o `test -f 'ANS_LinkInitFrame.c' || echo './'`ANS_LinkInitFrame.c
+mv -f .deps/libans_common_a-ANS_LinkInitFrame.Tpo .deps/libans_common_a-ANS_LinkInitFrame.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_AdminWorker.o -MD -MP -MF .deps/libans_common_a-ANS_AdminWorker.Tpo -c -o libans_common_a-ANS_AdminWorker.o `test -f 'ANS_AdminWorker.c' || echo './'`ANS_AdminWorker.c
+mv -f .deps/libans_common_a-ANS_AdminWorker.Tpo .deps/libans_common_a-ANS_AdminWorker.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_BoardWorker.o -MD -MP -MF .deps/libans_common_a-ANS_BoardWorker.Tpo -c -o libans_common_a-ANS_BoardWorker.o `test -f 'ANS_BoardWorker.c' || echo './'`ANS_BoardWorker.c
+mv -f .deps/libans_common_a-ANS_BoardWorker.Tpo .deps/libans_common_a-ANS_BoardWorker.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_MemChunk.o -MD -MP -MF .deps/libans_common_a-ANS_MemChunk.Tpo -c -o libans_common_a-ANS_MemChunk.o `test -f 'ANS_MemChunk.c' || echo './'`ANS_MemChunk.c
+mv -f .deps/libans_common_a-ANS_MemChunk.Tpo .deps/libans_common_a-ANS_MemChunk.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_CmdFrame.o -MD -MP -MF .deps/libans_common_a-ANS_CmdFrame.Tpo -c -o libans_common_a-ANS_CmdFrame.o `test -f 'ANS_CmdFrame.c' || echo './'`ANS_CmdFrame.c
+mv -f .deps/libans_common_a-ANS_CmdFrame.Tpo .deps/libans_common_a-ANS_CmdFrame.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Header.o -MD -MP -MF .deps/libans_common_a-ANS_Header.Tpo -c -o libans_common_a-ANS_Header.o `test -f 'ANS_Header.c' || echo './'`ANS_Header.c
+mv -f .deps/libans_common_a-ANS_Header.Tpo .deps/libans_common_a-ANS_Header.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Frame.o -MD -MP -MF .deps/libans_common_a-ANS_Frame.Tpo -c -o libans_common_a-ANS_Frame.o `test -f 'ANS_Frame.c' || echo './'`ANS_Frame.c
+mv -f .deps/libans_common_a-ANS_Frame.Tpo .deps/libans_common_a-ANS_Frame.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Startup.o -MD -MP -MF .deps/libans_common_a-ANS_Startup.Tpo -c -o libans_common_a-ANS_Startup.o `test -f 'ANS_Startup.c' || echo './'`ANS_Startup.c
+mv -f .deps/libans_common_a-ANS_Startup.Tpo .deps/libans_common_a-ANS_Startup.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Connection.o -MD -MP -MF .deps/libans_common_a-ANS_Connection.Tpo -c -o libans_common_a-ANS_Connection.o `test -f 'ANS_Connection.c' || echo './'`ANS_Connection.c
+mv -f .deps/libans_common_a-ANS_Connection.Tpo .deps/libans_common_a-ANS_Connection.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_ServerPeer.o -MD -MP -MF .deps/libans_common_a-ANS_ServerPeer.Tpo -c -o libans_common_a-ANS_ServerPeer.o `test -f 'ANS_ServerPeer.c' || echo './'`ANS_ServerPeer.c
+mv -f .deps/libans_common_a-ANS_ServerPeer.Tpo .deps/libans_common_a-ANS_ServerPeer.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Board.o -MD -MP -MF .deps/libans_common_a-ANS_Board.Tpo -c -o libans_common_a-ANS_Board.o `test -f 'ANS_Board.c' || echo './'`ANS_Board.c
+mv -f .deps/libans_common_a-ANS_Board.Tpo .deps/libans_common_a-ANS_Board.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_ClientPeer.o -MD -MP -MF .deps/libans_common_a-ANS_ClientPeer.Tpo -c -o libans_common_a-ANS_ClientPeer.o `test -f 'ANS_ClientPeer.c' || echo './'`ANS_ClientPeer.c
+ANS_ClientPeer.c: In function ‘AnsClientPeer_closeBoardEventStream’:
+ANS_ClientPeer.c:721:35: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  721 |         command_payload->handle = (AiUInt32) observer_handle;
+      |                                   ^
+mv -f .deps/libans_common_a-ANS_ClientPeer.Tpo .deps/libans_common_a-ANS_ClientPeer.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -fPIC  -Wall -I../src -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -g -O2 -MT libans_common_a-ANS_Protocol.o -MD -MP -MF .deps/libans_common_a-ANS_Protocol.Tpo -c -o libans_common_a-ANS_Protocol.o `test -f 'ANS_Protocol.c' || echo './'`ANS_Protocol.c
+mv -f .deps/libans_common_a-ANS_Protocol.Tpo .deps/libans_common_a-ANS_Protocol.Po
+rm -f libans-common.a
+ar cru libans-common.a libans_common_a-Ai_Options.o libans_common_a-Ai_Strncpy.o libans_common_a-Ai_Strdup.o libans_common_a-Ai_Cmdline.o libans_common_a-ANS_Log.o libans_common_a-Ai_Log.o libans_common_a-Ai_Sem.o libans_common_a-Ai_Logindex.o libans_common_a-Ai_Date.o libans_common_a-Ai_Time.o libans_common_a-ANS_Client.o libans_common_a-Ai_Opterror.o libans_common_a-ANS_Thread.o libans_common_a-Ai_Socket.o libans_common_a-Ai_Sockll.o libans_common_a-ANS_Server.o libans_common_a-Ai_Socksv.o libans_common_a-Ai_Socktl.o libans_common_a-ANS_Multiplexer.o libans_common_a-ANS_LinkInitFrame.o libans_common_a-ANS_AdminWorker.o libans_common_a-ANS_BoardWorker.o libans_common_a-ANS_MemChunk.o libans_common_a-ANS_CmdFrame.o libans_common_a-ANS_Header.o libans_common_a-ANS_Frame.o libans_common_a-ANS_Startup.o libans_common_a-ANS_Connection.o libans_common_a-ANS_ServerPeer.o libans_common_a-ANS_Board.o libans_common_a-ANS_ClientPeer.o libans_common_a-ANS_Protocol.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libans-common.a
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+Generating Full Version string from Git repository
+./scripts/generate_version_file.sh
+make  all-recursive
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+Making all in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsBc.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsBc.Tpo -c -o libaim_mil_la-ApiLsBc.lo `test -f 'ApiLsBc.c' || echo './'`ApiLsBc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsBc.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsBc.Tpo -c ApiLsBc.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsBc.o
+mv -f .deps/libaim_mil_la-ApiLsBc.Tpo .deps/libaim_mil_la-ApiLsBc.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsBm.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsBm.Tpo -c -o libaim_mil_la-ApiLsBm.lo `test -f 'ApiLsBm.c' || echo './'`ApiLsBm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsBm.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsBm.Tpo -c ApiLsBm.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsBm.o
+mv -f .deps/libaim_mil_la-ApiLsBm.Tpo .deps/libaim_mil_la-ApiLsBm.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiGen.lo -MD -MP -MF .deps/libaim_mil_la-ApiGen.Tpo -c -o libaim_mil_la-ApiGen.lo `test -f 'ApiGen.c' || echo './'`ApiGen.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiGen.lo -MD -MP -MF .deps/libaim_mil_la-ApiGen.Tpo -c ApiGen.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiGen.o
+mv -f .deps/libaim_mil_la-ApiGen.Tpo .deps/libaim_mil_la-ApiGen.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsBuf.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsBuf.Tpo -c -o libaim_mil_la-ApiLsBuf.lo `test -f 'ApiLsBuf.c' || echo './'`ApiLsBuf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsBuf.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsBuf.Tpo -c ApiLsBuf.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsBuf.o
+mv -f .deps/libaim_mil_la-ApiLsBuf.Tpo .deps/libaim_mil_la-ApiLsBuf.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsCal.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsCal.Tpo -c -o libaim_mil_la-ApiLsCal.lo `test -f 'ApiLsCal.c' || echo './'`ApiLsCal.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsCal.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsCal.Tpo -c ApiLsCal.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsCal.o
+mv -f .deps/libaim_mil_la-ApiLsCal.Tpo .deps/libaim_mil_la-ApiLsCal.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsFifo.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsFifo.Tpo -c -o libaim_mil_la-ApiLsFifo.lo `test -f 'ApiLsFifo.c' || echo './'`ApiLsFifo.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsFifo.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsFifo.Tpo -c ApiLsFifo.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsFifo.o
+mv -f .deps/libaim_mil_la-ApiLsFifo.Tpo .deps/libaim_mil_la-ApiLsFifo.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsQue.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsQue.Tpo -c -o libaim_mil_la-ApiLsQue.lo `test -f 'ApiLsQue.c' || echo './'`ApiLsQue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsQue.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsQue.Tpo -c ApiLsQue.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsQue.o
+ApiLsQue.c: In function ‘ApiCmdQueueRead_’:
+ApiLsQue.c:278:9: warning: ‘ApiCmdBMReadMsgFltRec’ is deprecated [-Wdeprecated-declarations]
+  278 |         uw_RetVal = ApiCmdBMReadMsgFltRec(bModule, biu, 1/*mode*/, 4 /*con*/, 50 /*max_size*/, 1/*max_msg*/,
+      |         ^~~~~~~~~
+In file included from /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/AiOsLinux.h:32,
+                 from /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/AiOs.h:23,
+                 from ApiLsQue.c:10:
+../include/ApiLsBm.h:374:49: note: declared here
+  374 | AI_LIB_FUNC AI_DEPRECATED(AiReturn AI_CALL_CONV ApiCmdBMReadMsgFltRec(AiUInt32 bModule, AiUInt8 biu, AiUInt8 mode,AiUInt8 con, AiUInt32 max_size, AiUInt16 max_msg,void *lpBuf, AiUInt8 *ovfl, AiUInt32 *lWordsRead));
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~
+/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_cdef.h:97:37: note: in definition of macro ‘AI_DEPRECATED’
+   97 |         #define AI_DEPRECATED(func) func __attribute__ ((deprecated))
+      |                                     ^~~~
+mv -f .deps/libaim_mil_la-ApiLsQue.Tpo .deps/libaim_mil_la-ApiLsQue.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsRep.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsRep.Tpo -c -o libaim_mil_la-ApiLsRep.lo `test -f 'ApiLsRep.c' || echo './'`ApiLsRep.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsRep.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsRep.Tpo -c ApiLsRep.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsRep.o
+mv -f .deps/libaim_mil_la-ApiLsRep.Tpo .deps/libaim_mil_la-ApiLsRep.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsRt.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsRt.Tpo -c -o libaim_mil_la-ApiLsRt.lo `test -f 'ApiLsRt.c' || echo './'`ApiLsRt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsRt.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsRt.Tpo -c ApiLsRt.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsRt.o
+mv -f .deps/libaim_mil_la-ApiLsRt.Tpo .deps/libaim_mil_la-ApiLsRt.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsSys.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsSys.Tpo -c -o libaim_mil_la-ApiLsSys.lo `test -f 'ApiLsSys.c' || echo './'`ApiLsSys.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsSys.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsSys.Tpo -c ApiLsSys.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsSys.o
+mv -f .deps/libaim_mil_la-ApiLsSys.Tpo .deps/libaim_mil_la-ApiLsSys.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-Dll_Fnc.lo -MD -MP -MF .deps/libaim_mil_la-Dll_Fnc.Tpo -c -o libaim_mil_la-Dll_Fnc.lo `test -f 'Dll_Fnc.c' || echo './'`Dll_Fnc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-Dll_Fnc.lo -MD -MP -MF .deps/libaim_mil_la-Dll_Fnc.Tpo -c Dll_Fnc.c  -fPIC -DPIC -o .libs/libaim_mil_la-Dll_Fnc.o
+mv -f .deps/libaim_mil_la-Dll_Fnc.Tpo .deps/libaim_mil_la-Dll_Fnc.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-Dll_Ini.lo -MD -MP -MF .deps/libaim_mil_la-Dll_Ini.Tpo -c -o libaim_mil_la-Dll_Ini.lo `test -f 'Dll_Ini.c' || echo './'`Dll_Ini.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-Dll_Ini.lo -MD -MP -MF .deps/libaim_mil_la-Dll_Ini.Tpo -c Dll_Ini.c  -fPIC -DPIC -o .libs/libaim_mil_la-Dll_Ini.o
+mv -f .deps/libaim_mil_la-Dll_Ini.Tpo .deps/libaim_mil_la-Dll_Ini.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-Glob.lo -MD -MP -MF .deps/libaim_mil_la-Glob.Tpo -c -o libaim_mil_la-Glob.lo `test -f 'Glob.c' || echo './'`Glob.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-Glob.lo -MD -MP -MF .deps/libaim_mil_la-Glob.Tpo -c Glob.c  -fPIC -DPIC -o .libs/libaim_mil_la-Glob.o
+mv -f .deps/libaim_mil_la-Glob.Tpo .deps/libaim_mil_la-Glob.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsDQue.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsDQue.Tpo -c -o libaim_mil_la-ApiLsDQue.lo `test -f 'ApiLsDQue.c' || echo './'`ApiLsDQue.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsDQue.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsDQue.Tpo -c ApiLsDQue.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsDQue.o
+In file included from net_io.h:42,
+                 from ApiLsDQue.c:10:
+ApiLsDQue.c: In function ‘ApiCmdDataQueueRead’:
+ApiLsDQue.c:570:12: warning: format ‘%llx’ expects argument of type ‘long long unsigned int’, but argument 3 has type ‘AiUInt64’ {aka ‘long unsigned int’} [-Wformat=]
+  570 |     TRACE1("    --> info.total_bytes_transfered = 0x%llx\n", info->total_bytes_transfered);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                  |
+      |                                                                  AiUInt64 {aka long unsigned int}
+Ai1553_Internal_def.h:243:29: note: in definition of macro ‘TRACE1’
+  243 |             sprintf(dbgBuf, x, par); \
+      |                             ^
+ApiLsDQue.c:570:56: note: format string is defined here
+  570 |     TRACE1("    --> info.total_bytes_transfered = 0x%llx\n", info->total_bytes_transfered);
+      |                                                     ~~~^
+      |                                                        |
+      |                                                        long long unsigned int
+      |                                                     %lx
+mv -f .deps/libaim_mil_la-ApiLsDQue.Tpo .deps/libaim_mil_la-ApiLsDQue.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsScope.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsScope.Tpo -c -o libaim_mil_la-ApiLsScope.lo `test -f 'ApiLsScope.c' || echo './'`ApiLsScope.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsScope.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsScope.Tpo -c ApiLsScope.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsScope.o
+mv -f .deps/libaim_mil_la-ApiLsScope.Tpo .deps/libaim_mil_la-ApiLsScope.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiLsTrack.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsTrack.Tpo -c -o libaim_mil_la-ApiLsTrack.lo `test -f 'ApiLsTrack.c' || echo './'`ApiLsTrack.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiLsTrack.lo -MD -MP -MF .deps/libaim_mil_la-ApiLsTrack.Tpo -c ApiLsTrack.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiLsTrack.o
+mv -f .deps/libaim_mil_la-ApiLsTrack.Tpo .deps/libaim_mil_la-ApiLsTrack.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-AiGenIo.lo -MD -MP -MF .deps/libaim_mil_la-AiGenIo.Tpo -c -o libaim_mil_la-AiGenIo.lo `test -f 'AiGenIo.c' || echo './'`AiGenIo.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-AiGenIo.lo -MD -MP -MF .deps/libaim_mil_la-AiGenIo.Tpo -c AiGenIo.c  -fPIC -DPIC -o .libs/libaim_mil_la-AiGenIo.o
+mv -f .deps/libaim_mil_la-AiGenIo.Tpo .deps/libaim_mil_la-AiGenIo.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-DeviceNotification.lo -MD -MP -MF .deps/libaim_mil_la-DeviceNotification.Tpo -c -o libaim_mil_la-DeviceNotification.lo `test -f 'DeviceNotification.c' || echo './'`DeviceNotification.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-DeviceNotification.lo -MD -MP -MF .deps/libaim_mil_la-DeviceNotification.Tpo -c DeviceNotification.c  -fPIC -DPIC -o .libs/libaim_mil_la-DeviceNotification.o
+mv -f .deps/libaim_mil_la-DeviceNotification.Tpo .deps/libaim_mil_la-DeviceNotification.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiVersions.lo -MD -MP -MF .deps/libaim_mil_la-ApiVersions.Tpo -c -o libaim_mil_la-ApiVersions.lo `test -f 'ApiVersions.c' || echo './'`ApiVersions.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiVersions.lo -MD -MP -MF .deps/libaim_mil_la-ApiVersions.Tpo -c ApiVersions.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiVersions.o
+mv -f .deps/libaim_mil_la-ApiVersions.Tpo .deps/libaim_mil_la-ApiVersions.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-Ai1553Cvi.lo -MD -MP -MF .deps/libaim_mil_la-Ai1553Cvi.Tpo -c -o libaim_mil_la-Ai1553Cvi.lo `test -f 'Ai1553Cvi.c' || echo './'`Ai1553Cvi.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-Ai1553Cvi.lo -MD -MP -MF .deps/libaim_mil_la-Ai1553Cvi.Tpo -c Ai1553Cvi.c  -fPIC -DPIC -o .libs/libaim_mil_la-Ai1553Cvi.o
+mv -f .deps/libaim_mil_la-Ai1553Cvi.Tpo .deps/libaim_mil_la-Ai1553Cvi.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT hw/libaim_mil_la-ApiHw.lo -MD -MP -MF hw/.deps/libaim_mil_la-ApiHw.Tpo -c -o hw/libaim_mil_la-ApiHw.lo `test -f 'hw/ApiHw.c' || echo './'`hw/ApiHw.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT hw/libaim_mil_la-ApiHw.lo -MD -MP -MF hw/.deps/libaim_mil_la-ApiHw.Tpo -c hw/ApiHw.c  -fPIC -DPIC -o hw/.libs/libaim_mil_la-ApiHw.o
+mv -f hw/.deps/libaim_mil_la-ApiHw.Tpo hw/.deps/libaim_mil_la-ApiHw.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-ApiHsEmptyStub.lo -MD -MP -MF .deps/libaim_mil_la-ApiHsEmptyStub.Tpo -c -o libaim_mil_la-ApiHsEmptyStub.lo `test -f 'ApiHsEmptyStub.c' || echo './'`ApiHsEmptyStub.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-ApiHsEmptyStub.lo -MD -MP -MF .deps/libaim_mil_la-ApiHsEmptyStub.Tpo -c ApiHsEmptyStub.c  -fPIC -DPIC -o .libs/libaim_mil_la-ApiHsEmptyStub.o
+mv -f .deps/libaim_mil_la-ApiHsEmptyStub.Tpo .deps/libaim_mil_la-ApiHsEmptyStub.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT ./os/linux/libaim_mil_la-Aim1553_io.lo -MD -MP -MF ./os/linux/.deps/libaim_mil_la-Aim1553_io.Tpo -c -o ./os/linux/libaim_mil_la-Aim1553_io.lo `test -f './os/linux/Aim1553_io.c' || echo './'`./os/linux/Aim1553_io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT ./os/linux/libaim_mil_la-Aim1553_io.lo -MD -MP -MF ./os/linux/.deps/libaim_mil_la-Aim1553_io.Tpo -c ./os/linux/Aim1553_io.c  -fPIC -DPIC -o ./os/linux/.libs/libaim_mil_la-Aim1553_io.o
+./os/linux/Aim1553_io.c: In function ‘mil_nl_receive_callback’:
+./os/linux/Aim1553_io.c:726:13: warning: implicit declaration of function ‘ApiHwBiuIsHs’ [-Wimplicit-function-declaration]
+  726 |         if( ApiHwBiuIsHs(device->x_BoardInfo.ul_DeviceType, biu) != 0)
+      |             ^~~~~~~~~~~~
+mv -f ./os/linux/.deps/libaim_mil_la-Aim1553_io.Tpo ./os/linux/.deps/libaim_mil_la-Aim1553_io.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-Aim1553_esmart_update.lo -MD -MP -MF .deps/libaim_mil_la-Aim1553_esmart_update.Tpo -c -o libaim_mil_la-Aim1553_esmart_update.lo `test -f 'Aim1553_esmart_update.c' || echo './'`Aim1553_esmart_update.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-Aim1553_esmart_update.lo -MD -MP -MF .deps/libaim_mil_la-Aim1553_esmart_update.Tpo -c Aim1553_esmart_update.c  -fPIC -DPIC -o .libs/libaim_mil_la-Aim1553_esmart_update.o
+mv -f .deps/libaim_mil_la-Aim1553_esmart_update.Tpo .deps/libaim_mil_la-Aim1553_esmart_update.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL     -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3   -g -O2 -MT libaim_mil_la-Net_io.lo -MD -MP -MF .deps/libaim_mil_la-Net_io.Tpo -c -o libaim_mil_la-Net_io.lo `test -f 'Net_io.c' || echo './'`Net_io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_AIM_LINUX -D_API1553 -DAIM_MIL -I./os/linux/ -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/include/mil -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/eSmart/esmartd/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/usr/include/libnl3 -g -O2 -MT libaim_mil_la-Net_io.lo -MD -MP -MF .deps/libaim_mil_la-Net_io.Tpo -c Net_io.c  -fPIC -DPIC -o .libs/libaim_mil_la-Net_io.o
+mv -f .deps/libaim_mil_la-Net_io.Tpo .deps/libaim_mil_la-Net_io.Plo
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -g -O2 -lrt -lpthread  -lnl-genl-3 -lnl-3  -version-info 46:0:22     -o libaim_mil.la -rpath /usr/local/lib libaim_mil_la-ApiLsBc.lo libaim_mil_la-ApiLsBm.lo libaim_mil_la-ApiGen.lo libaim_mil_la-ApiLsBuf.lo libaim_mil_la-ApiLsCal.lo libaim_mil_la-ApiLsFifo.lo libaim_mil_la-ApiLsQue.lo libaim_mil_la-ApiLsRep.lo libaim_mil_la-ApiLsRt.lo libaim_mil_la-ApiLsSys.lo libaim_mil_la-Dll_Fnc.lo libaim_mil_la-Dll_Ini.lo libaim_mil_la-Glob.lo libaim_mil_la-ApiLsDQue.lo libaim_mil_la-ApiLsScope.lo libaim_mil_la-ApiLsTrack.lo libaim_mil_la-AiGenIo.lo libaim_mil_la-DeviceNotification.lo libaim_mil_la-ApiVersions.lo libaim_mil_la-Ai1553Cvi.lo hw/libaim_mil_la-ApiHw.lo  libaim_mil_la-ApiHsEmptyStub.lo    ./os/linux/libaim_mil_la-Aim1553_io.lo libaim_mil_la-Aim1553_esmart_update.lo libaim_mil_la-Net_io.lo /home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/src/libans-common.a -lrt -lpthread  -lnl-genl-3 -lnl-3 
+
+*** Warning: Linking the shared library libaim_mil.la against the
+*** static library /home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/src/libans-common.a is not portable!
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libaim_mil_la-ApiLsBc.o .libs/libaim_mil_la-ApiLsBm.o .libs/libaim_mil_la-ApiGen.o .libs/libaim_mil_la-ApiLsBuf.o .libs/libaim_mil_la-ApiLsCal.o .libs/libaim_mil_la-ApiLsFifo.o .libs/libaim_mil_la-ApiLsQue.o .libs/libaim_mil_la-ApiLsRep.o .libs/libaim_mil_la-ApiLsRt.o .libs/libaim_mil_la-ApiLsSys.o .libs/libaim_mil_la-Dll_Fnc.o .libs/libaim_mil_la-Dll_Ini.o .libs/libaim_mil_la-Glob.o .libs/libaim_mil_la-ApiLsDQue.o .libs/libaim_mil_la-ApiLsScope.o .libs/libaim_mil_la-ApiLsTrack.o .libs/libaim_mil_la-AiGenIo.o .libs/libaim_mil_la-DeviceNotification.o .libs/libaim_mil_la-ApiVersions.o .libs/libaim_mil_la-Ai1553Cvi.o hw/.libs/libaim_mil_la-ApiHw.o .libs/libaim_mil_la-ApiHsEmptyStub.o ./os/linux/.libs/libaim_mil_la-Aim1553_io.o .libs/libaim_mil_la-Aim1553_esmart_update.o .libs/libaim_mil_la-Net_io.o   /home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/src/libans-common.a -lrt -lpthread -lnl-genl-3 -lnl-3  -g -O2   -Wl,-soname -Wl,libaim_mil.so.24 -o .libs/libaim_mil.so.24.22.0
+libtool: link: (cd ".libs" && rm -f "libaim_mil.so.24" && ln -s "libaim_mil.so.24.22.0" "libaim_mil.so.24")
+libtool: link: (cd ".libs" && rm -f "libaim_mil.so" && ln -s "libaim_mil.so.24.22.0" "libaim_mil.so")
+libtool: link: ( cd ".libs" && rm -f "libaim_mil.la" && ln -s "../libaim_mil.la" "libaim_mil.la" )
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+Making all in sample
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make  all-recursive
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+Making all in src
+make[4]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_buffer_queue_sample.o -MD -MP -MF .deps/sample-ls_buffer_queue_sample.Tpo -c -o sample-ls_buffer_queue_sample.o `test -f 'ls_buffer_queue_sample.c' || echo './'`ls_buffer_queue_sample.c
+mv -f .deps/sample-ls_buffer_queue_sample.Tpo .deps/sample-ls_buffer_queue_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_dynamic_data_sample.o -MD -MP -MF .deps/sample-ls_dynamic_data_sample.Tpo -c -o sample-ls_dynamic_data_sample.o `test -f 'ls_dynamic_data_sample.c' || echo './'`ls_dynamic_data_sample.c
+mv -f .deps/sample-ls_dynamic_data_sample.Tpo .deps/sample-ls_dynamic_data_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_recording_replay_sample.o -MD -MP -MF .deps/sample-ls_recording_replay_sample.Tpo -c -o sample-ls_recording_replay_sample.o `test -f 'ls_recording_replay_sample.c' || echo './'`ls_recording_replay_sample.c
+mv -f .deps/sample-ls_recording_replay_sample.Tpo .deps/sample-ls_recording_replay_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_instruction_list_sample.o -MD -MP -MF .deps/sample-ls_instruction_list_sample.Tpo -c -o sample-ls_instruction_list_sample.o `test -f 'ls_instruction_list_sample.c' || echo './'`ls_instruction_list_sample.c
+mv -f .deps/sample-ls_instruction_list_sample.Tpo .deps/sample-ls_instruction_list_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_acyclic_sample.o -MD -MP -MF .deps/sample-ls_acyclic_sample.Tpo -c -o sample-ls_acyclic_sample.o `test -f 'ls_acyclic_sample.c' || echo './'`ls_acyclic_sample.c
+mv -f .deps/sample-ls_acyclic_sample.Tpo .deps/sample-ls_acyclic_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_interrupt_sample.o -MD -MP -MF .deps/sample-ls_interrupt_sample.Tpo -c -o sample-ls_interrupt_sample.o `test -f 'ls_interrupt_sample.c' || echo './'`ls_interrupt_sample.c
+mv -f .deps/sample-ls_interrupt_sample.Tpo .deps/sample-ls_interrupt_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_bc_rt_bm_sample.o -MD -MP -MF .deps/sample-ls_bc_rt_bm_sample.Tpo -c -o sample-ls_bc_rt_bm_sample.o `test -f 'ls_bc_rt_bm_sample.c' || echo './'`ls_bc_rt_bm_sample.c
+mv -f .deps/sample-ls_bc_rt_bm_sample.Tpo .deps/sample-ls_bc_rt_bm_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_bc_rt_bm_tcb_sample.o -MD -MP -MF .deps/sample-ls_bc_rt_bm_tcb_sample.Tpo -c -o sample-ls_bc_rt_bm_tcb_sample.o `test -f 'ls_bc_rt_bm_tcb_sample.c' || echo './'`ls_bc_rt_bm_tcb_sample.c
+mv -f .deps/sample-ls_bc_rt_bm_tcb_sample.Tpo .deps/sample-ls_bc_rt_bm_tcb_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-print_versions.o -MD -MP -MF .deps/sample-print_versions.Tpo -c -o sample-print_versions.o `test -f 'print_versions.c' || echo './'`print_versions.c
+mv -f .deps/sample-print_versions.Tpo .deps/sample-print_versions.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-template_sample.o -MD -MP -MF .deps/sample-template_sample.Tpo -c -o sample-template_sample.o `test -f 'template_sample.c' || echo './'`template_sample.c
+mv -f .deps/sample-template_sample.Tpo .deps/sample-template_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_milscope_sample_ape.o -MD -MP -MF .deps/sample-ls_milscope_sample_ape.Tpo -c -o sample-ls_milscope_sample_ape.o `test -f 'ls_milscope_sample_ape.c' || echo './'`ls_milscope_sample_ape.c
+mv -f .deps/sample-ls_milscope_sample_ape.Tpo .deps/sample-ls_milscope_sample_ape.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_fifo_sample.o -MD -MP -MF .deps/sample-ls_fifo_sample.Tpo -c -o sample-ls_fifo_sample.o `test -f 'ls_fifo_sample.c' || echo './'`ls_fifo_sample.c
+mv -f .deps/sample-ls_fifo_sample.Tpo .deps/sample-ls_fifo_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT os/linux/sample-ls_ptp_vtp_sample_dtp_server.o -MD -MP -MF os/linux/.deps/sample-ls_ptp_vtp_sample_dtp_server.Tpo -c -o os/linux/sample-ls_ptp_vtp_sample_dtp_server.o `test -f 'os/linux/ls_ptp_vtp_sample_dtp_server.c' || echo './'`os/linux/ls_ptp_vtp_sample_dtp_server.c
+mv -f os/linux/.deps/sample-ls_ptp_vtp_sample_dtp_server.Tpo os/linux/.deps/sample-ls_ptp_vtp_sample_dtp_server.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_ptp_vtp_sample.o -MD -MP -MF .deps/sample-ls_ptp_vtp_sample.Tpo -c -o sample-ls_ptp_vtp_sample.o `test -f 'ls_ptp_vtp_sample.c' || echo './'`ls_ptp_vtp_sample.c
+mv -f .deps/sample-ls_ptp_vtp_sample.Tpo .deps/sample-ls_ptp_vtp_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_bm_sample.o -MD -MP -MF .deps/sample-ls_bm_sample.Tpo -c -o sample-ls_bm_sample.o `test -f 'ls_bm_sample.c' || echo './'`ls_bm_sample.c
+mv -f .deps/sample-ls_bm_sample.Tpo .deps/sample-ls_bm_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-ls_bc_sample.o -MD -MP -MF .deps/sample-ls_bc_sample.Tpo -c -o sample-ls_bc_sample.o `test -f 'ls_bc_sample.c' || echo './'`ls_bc_sample.c
+mv -f .deps/sample-ls_bc_sample.Tpo .deps/sample-ls_bc_sample.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-mil_util.o -MD -MP -MF .deps/sample-mil_util.Tpo -c -o sample-mil_util.o `test -f 'mil_util.c' || echo './'`mil_util.c
+mv -f .deps/sample-mil_util.Tpo .deps/sample-mil_util.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2 -MT sample-1553_sample.o -MD -MP -MF .deps/sample-1553_sample.Tpo -c -o sample-1553_sample.o `test -f '1553_sample.c' || echo './'`1553_sample.c
+mv -f .deps/sample-1553_sample.Tpo .deps/sample-1553_sample.Po
+gcc -D_AIM_LINUX -I../include -I../../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -L../../src/.libs -L../../src -g -O2   -o sample sample-ls_buffer_queue_sample.o sample-ls_dynamic_data_sample.o sample-ls_recording_replay_sample.o sample-ls_instruction_list_sample.o sample-ls_acyclic_sample.o sample-ls_interrupt_sample.o sample-ls_bc_rt_bm_sample.o sample-ls_bc_rt_bm_tcb_sample.o sample-print_versions.o sample-template_sample.o sample-ls_milscope_sample_ape.o sample-ls_fifo_sample.o os/linux/sample-ls_ptp_vtp_sample_dtp_server.o sample-ls_ptp_vtp_sample.o sample-ls_bm_sample.o sample-ls_bc_sample.o sample-mil_util.o  sample-1553_sample.o -laim_mil 
+make[4]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+make[4]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[4]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+Generating Full Version string from Git repository
+make  all-recursive
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+Making all in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553/src'
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include  -g -O2 -MT ANS1553-ANS1553.o -MD -MP -MF .deps/ANS1553-ANS1553.Tpo -c -o ANS1553-ANS1553.o `test -f 'ANS1553.c' || echo './'`ANS1553.c
+mv -f .deps/ANS1553-ANS1553.Tpo .deps/ANS1553-ANS1553.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include  -g -O2 -MT ANS1553-BoardCommandHandlers.o -MD -MP -MF .deps/ANS1553-BoardCommandHandlers.Tpo -c -o ANS1553-BoardCommandHandlers.o `test -f 'BoardCommandHandlers.c' || echo './'`BoardCommandHandlers.c
+BoardCommandHandlers.c: In function ‘Ans1553EventHandler’:
+BoardCommandHandlers.c:45:50: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   45 |     board = AnsServer_requestBoard(&g_AnsServer, (AiHandle)GET_MODULE_ID(bModule));
+      |                                                  ^
+mv -f .deps/ANS1553-BoardCommandHandlers.Tpo .deps/ANS1553-BoardCommandHandlers.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -D_AIM_LINUX -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include  -g -O2 -MT ANS1553-BoardProtocolHandlers.o -MD -MP -MF .deps/ANS1553-BoardProtocolHandlers.Tpo -c -o ANS1553-BoardProtocolHandlers.o `test -f 'BoardProtocolHandlers.c' || echo './'`BoardProtocolHandlers.c
+mv -f .deps/ANS1553-BoardProtocolHandlers.Tpo .deps/ANS1553-BoardProtocolHandlers.Po
+gcc  -g -O2 "-Wl,--no-as-needed" -L/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src/.libs  -laim_mil -L/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src/.libs -o ANS1553 ANS1553-ANS1553.o ANS1553-BoardCommandHandlers.o ANS1553-BoardProtocolHandlers.o /home/aim/mil-std-1553-linux-bsp-15.3.0/src/ANS-Common/src/libans-common.a -lpthread 
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make  all-recursive
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+Making all in SmartLib
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+Making all in src
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib/src'
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-AiMyMon.o -MD -MP -MF .deps/libsmart_a-AiMyMon.Tpo -c -o libsmart_a-AiMyMon.o `test -f 'AiMyMon.c' || echo './'`AiMyMon.c
+mv -f .deps/libsmart_a-AiMyMon.Tpo .deps/libsmart_a-AiMyMon.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-AiArtix7Mon.o -MD -MP -MF .deps/libsmart_a-AiArtix7Mon.Tpo -c -o libsmart_a-AiArtix7Mon.o `test -f 'AiArtix7Mon.c' || echo './'`AiArtix7Mon.c
+mv -f .deps/libsmart_a-AiArtix7Mon.Tpo .deps/libsmart_a-AiArtix7Mon.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-S0Handling.o -MD -MP -MF .deps/libsmart_a-S0Handling.Tpo -c -o libsmart_a-S0Handling.o `test -f 'S0Handling.c' || echo './'`S0Handling.c
+mv -f .deps/libsmart_a-S0Handling.Tpo .deps/libsmart_a-S0Handling.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmartAIM.o -MD -MP -MF .deps/libsmart_a-SmartAIM.Tpo -c -o libsmart_a-SmartAIM.o `test -f 'SmartAIM.c' || echo './'`SmartAIM.c
+mv -f .deps/libsmart_a-SmartAIM.Tpo .deps/libsmart_a-SmartAIM.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmartAyE.o -MD -MP -MF .deps/libsmart_a-SmartAyE.Tpo -c -o libsmart_a-SmartAyE.o `test -f 'SmartAyE.c' || echo './'`SmartAyE.c
+mv -f .deps/libsmart_a-SmartAyE.Tpo .deps/libsmart_a-SmartAyE.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmartBat.o -MD -MP -MF .deps/libsmart_a-SmartBat.Tpo -c -o libsmart_a-SmartBat.o `test -f 'SmartBat.c' || echo './'`SmartBat.c
+mv -f .deps/libsmart_a-SmartBat.Tpo .deps/libsmart_a-SmartBat.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmartLib.o -MD -MP -MF .deps/libsmart_a-SmartLib.Tpo -c -o libsmart_a-SmartLib.o `test -f 'SmartLib.c' || echo './'`SmartLib.c
+In file included from /usr/include/string.h:548,
+                 from /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/AiOsLinux.h:19,
+                 from /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/AiOs.h:23,
+                 from SmartLib.c:22:
+In function ‘strncat’,
+    inlined from ‘uw_SLUpdatePackage’ at SmartLib.c:1068:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:138:10: warning: ‘__builtin___strncat_chk’ specified bound 4096 equals destination size [-Wstringop-overflow=]
+  138 |   return __builtin___strncat_chk (__dest, __src, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  139 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+mv -f .deps/libsmart_a-SmartLib.Tpo .deps/libsmart_a-SmartLib.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmartLibAutoUpdateNone.o -MD -MP -MF .deps/libsmart_a-SmartLibAutoUpdateNone.Tpo -c -o libsmart_a-SmartLibAutoUpdateNone.o `test -f 'SmartLibAutoUpdateNone.c' || echo './'`SmartLibAutoUpdateNone.c
+mv -f .deps/libsmart_a-SmartLibAutoUpdateNone.Tpo .deps/libsmart_a-SmartLibAutoUpdateNone.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmartUpd.o -MD -MP -MF .deps/libsmart_a-SmartUpd.Tpo -c -o libsmart_a-SmartUpd.o `test -f 'SmartUpd.c' || echo './'`SmartUpd.c
+SmartUpd.c: In function ‘uw_SLCheckBitfileInstr’:
+SmartUpd.c:823:36: warning: ‘sizeof’ on array function parameter ‘ac_Suffix’ will return size of ‘AiChar *’ {aka ‘char *’} [-Wsizeof-array-argument]
+  823 |         memset(ac_Suffix, 0, sizeof(ac_Suffix));
+      |                                    ^
+SmartUpd.c:768:12: note: declared here
+  768 |     AiChar ac_Suffix[20])
+      |     ~~~~~~~^~~~~~~~~~~~~
+mv -f .deps/libsmart_a-SmartUpd.Tpo .deps/libsmart_a-SmartUpd.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-SmrtFile.o -MD -MP -MF .deps/libsmart_a-SmrtFile.Tpo -c -o libsmart_a-SmrtFile.o `test -f 'SmrtFile.c' || echo './'`SmrtFile.c
+mv -f .deps/libsmart_a-SmrtFile.Tpo .deps/libsmart_a-SmrtFile.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-WrapList.o -MD -MP -MF .deps/libsmart_a-WrapList.Tpo -c -o libsmart_a-WrapList.o `test -f 'WrapList.c' || echo './'`WrapList.c
+mv -f .deps/libsmart_a-WrapList.Tpo .deps/libsmart_a-WrapList.Po
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -D_SMARTLIB -I./../include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include  -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include -D_API3910      -g -O2 -MT libsmart_a-Mil_Wrap.o -MD -MP -MF .deps/libsmart_a-Mil_Wrap.Tpo -c -o libsmart_a-Mil_Wrap.o `test -f 'mil/Mil_Wrap.c' || echo './'`mil/Mil_Wrap.c
+mv -f .deps/libsmart_a-Mil_Wrap.Tpo .deps/libsmart_a-Mil_Wrap.Po
+rm -f libsmart.a
+ar cru libsmart.a libsmart_a-AiMyMon.o libsmart_a-AiArtix7Mon.o libsmart_a-S0Handling.o libsmart_a-SmartAIM.o libsmart_a-SmartAyE.o libsmart_a-SmartBat.o libsmart_a-SmartLib.o libsmart_a-SmartLibAutoUpdateNone.o libsmart_a-SmartUpd.o libsmart_a-SmrtFile.o libsmart_a-WrapList.o  libsmart_a-Mil_Wrap.o    
+ar: `u' modifier ignored since `D' is the default (see `U')
+ranlib libsmart.a
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib/src'
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+Making all in SmartCon
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+Making all in .
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+Generating Full Version string from Git repository
+../scripts/generate_version_file.sh ..
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+Making all in src
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon/src'
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -I../../SmartCon -I../../SmartLib/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include   -g -O2 -MT SmartCon-SmartCon.o -MD -MP -MF .deps/SmartCon-SmartCon.Tpo -c -o SmartCon-SmartCon.o `test -f 'SmartCon.c' || echo './'`SmartCon.c
+mv -f .deps/SmartCon-SmartCon.Tpo .deps/SmartCon-SmartCon.Po
+gcc  -g -O2   -o SmartCon SmartCon-SmartCon.o ../../SmartLib/src/libsmart.a  -L/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src/.libs -laim_mil    
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon/src'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci'
+Generating Full Version string from Git repository
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci CONFIG_AIM_MIL=y modules
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/aim_pci_module.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_pci_module_mil.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/src/mil/aim_tsw_mil.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.o
+  MODPOST /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/Module.symvers
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+Installing driver module aim_mil.ko to /lib/modules/5.10.200-0510200-generic/extra/
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci modules_install;
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  INSTALL /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci/aim_mil.ko
+At main.c:167:
+- SSL error:FFFFFFFF80000002:system library::No such file or directory: ../crypto/bio/bss_file.c:67
+- SSL error:10000080:BIO routines::no such file: ../crypto/bio/bss_file.c:75
+sign-file: certs/signing_key.pem: No such file or directory
+  DEPMOD  5.10.200-0510200-generic
+Warning: modules_install: missing 'System.map' file. Skipping depmod.
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/pci'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb'
+Generating Full Version string from Git repository
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb CONFIG_AIM_MIL=y modules
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb.o
+  CC [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/src/aim_usb_fs.o
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.o
+  MODPOST /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/Module.symvers
+  LD [M]  /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.ko
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+Installing driver module aim1553usb.ko to /lib/modules/5.10.200-0510200-generic/extra/
+make -C /lib/modules/5.10.200-0510200-generic/build M=/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb modules_install;
+make[1]: Entering directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+  INSTALL /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.ko
+At main.c:167:
+- SSL error:FFFFFFFF80000002:system library::No such file or directory: ../crypto/bio/bss_file.c:67
+- SSL error:10000080:BIO routines::no such file: ../crypto/bio/bss_file.c:75
+sign-file: certs/signing_key.pem: No such file or directory
+  DEPMOD  5.10.200-0510200-generic
+Warning: modules_install: missing 'System.map' file. Skipping depmod.
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.200-0510200-generic'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+Making uninstall in src
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+ /bin/bash ../libtool   --mode=uninstall rm -f '/usr/local/lib/libaim_mil.la'
+make  uninstall-hook
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+rm -f -rf /usr/local/include/aim_mil*
+rm -f /usr/local/lib/libaim_mil.*
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+Making uninstall in sample
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+Making uninstall in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+ ( cd '/usr/local/bin' && rm -f sample )
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[2]: Nothing to be done for 'uninstall-am'.
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make[1]: Nothing to be done for 'uninstall-am'.
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+Making install in src
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+ /usr/bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libaim_mil.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libaim_mil.so.24.22.0 /usr/local/lib/libaim_mil.so.24.22.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libaim_mil.so.24.22.0 libaim_mil.so.24 || { rm -f libaim_mil.so.24 && ln -s libaim_mil.so.24.22.0 libaim_mil.so.24; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libaim_mil.so.24.22.0 libaim_mil.so || { rm -f libaim_mil.so && ln -s libaim_mil.so.24.22.0 libaim_mil.so; }; })
+libtool: install: /usr/bin/install -c .libs/libaim_mil.lai /usr/local/lib/libaim_mil.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/local/include/aim_mil_24.22'
+ /usr/bin/install -c -m 644 /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_cdef.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_def.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_gcc.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_types.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_container.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_exports.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/AiOs.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/AiOsLinux.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include/Ai_compiler.h ../include/Api1553.h ../include/Ai1553i_def.h ../include/Ai1553i_fnc.h ../include/ApiLsDQue.h ../include/ApiLsBc.h ../include/ApiLsBm.h ../include/ApiLsRt.h ../include/ApiLsBuf.h ../include/ApiLsScope.h ../include/ApiLsTrack.h ../include/Aim1553_esmart_update.h ../include/ApiGenIo.h ../include/ApiLsQue.h ../include/ApiVersions.h ../include/ApiLsCal.h ../include/ApiLsReplay.h ../include/ApiGen.h ../include/ApiLsSys.h ../include/ApiLsFifo.h ../include/ApiNetwork.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include/Ai1553Com.h /home/aim/mil-std-1553-linux-bsp-15.3.0/src/tsw/include/AiMilErrors.h ../include/Api3910.h ../include/Ai3910i_def.h ../include/Ai3910i_fnc.h '/usr/local/include/aim_mil_24.22'
+make  install-data-hook
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+rm -f /usr/local/include/aim_mil
+ln -s aim_mil_24.22 /usr/local/include/aim_mil
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src'
+Making install in sample
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+Making install in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+ /usr/bin/mkdir -p '/usr/local/bin'
+  /usr/bin/install -c sample '/usr/local/bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/sample'
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+Making install in src
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553/src'
+ /usr/bin/mkdir -p '/usr/local/bin'
+  /usr/bin/install -c ANS1553 '/usr/local/bin'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553/src'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553/src'
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/ans1553'
+make: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+Making install in SmartLib
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+Making install in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib/src'
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib/src'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib/src'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartLib'
+Making install in SmartCon
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+Making install in .
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+Generating Full Version string from Git repository
+../scripts/generate_version_file.sh ..
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+Making install in src
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon/src'
+gcc -DHAVE_CONFIG_H -I. -I../..  -D_AIM_LINUX -I../../SmartCon -I../../SmartLib/include -I/home/aim/mil-std-1553-linux-bsp-15.3.0/src/AIM-BSP-Common/include   -g -O2 -MT SmartCon-SmartCon.o -MD -MP -MF .deps/SmartCon-SmartCon.Tpo -c -o SmartCon-SmartCon.o `test -f 'SmartCon.c' || echo './'`SmartCon.c
+mv -f .deps/SmartCon-SmartCon.Tpo .deps/SmartCon-SmartCon.Po
+gcc  -g -O2   -o SmartCon SmartCon-SmartCon.o ../../SmartLib/src/libsmart.a  -L/home/aim/mil-std-1553-linux-bsp-15.3.0/src/library/src/.libs -laim_mil    
+make[3]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon/src'
+ /usr/bin/mkdir -p '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart//bin'
+  /usr/bin/install -c SmartCon '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart//bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon/src'
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon/src'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart/SmartCon'
+make[1]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make[2]: Entering directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make[1]: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+make: Leaving directory '/home/aim/mil-std-1553-linux-bsp-15.3.0/src/Smart'
+***********************************************************
+Starting SMART 3.22.0
+***********************************************************
+Handling batch mode with following settings:
+Command: 0
+Server: local
+Update File: update-components/update.upd
+Licence key: 0000-0000-0000-0000
+Force: 0
+Mode Switch ID: 0
+Serial: 0
+
+Analyzing update file <update-components/update.upd> 
+
+***********************************************************
+Updating Board APE1553-4 (SN:424) on server <local>
+***********************************************************
+Searching entries for boardconfig <0x01020198> and boardtype <0xFFFFA0A0>
+{78,FFFFFFF0,FFFFFF10} 
+   Skipping entries until next valid header is found for this board
+{78,FFFFF0F0,FFFF1010} 
+{79,FFFFFFF0,FFFFFF10} 
+{79,FFFFF0F0,FFFF1010} 
+{B5,FFFFFFF0,FFFFFF10} 
+{B5,FFFFF0F0,FFFF1010} 
+{B5,F0F0F0F0,10101010} 
+{14,FFFFF0F0,FFFF3010} 
+{14,FFFFF0F0,FFFF7010} 
+{1B,FFFFF0F0,FFFF3010} 
+{1B,FFFFF0F0,FFFF7010} 
+{48,FFFFF0F0,FFFF3010} 
+{48,FFFFF0F0,FFFF7010} 
+{B4,FFFFF0F0,FFFF3010} 
+{B4,FFFFF0F0,FFFF7010} 
+{a9,FFFFF0F0,FFFF1010}
+{a8,FFFFFFF0,FFFFFF10}
+{76,FFFFFFF0,FFFFFF10}
+{77,FFFFFFF0,FFFFFF10}
+{58,FFFFFFF0,FFFFFF10} 
+{58,FFFFF0F0,FFFF1010} 
+{58,FFFFF0F0,FFFFA0A0} 
+{59,FFFFFFF0,FFFFFF10} 
+{59,FFFFF0F0,FFFF1010} 
+{59,FFFFF0F0,FFFFA0A0} 
+{75,FFFFFFF0,FFFFFF10} 
+{75,FFFFFFF0,FFFFFFA0} 
+{B0,FFFFFFF0,FFFFFF10} 
+{B0,FFFFF0F0,FFFF1010} 
+{B0,FFFFF0F0,FFFFA0A0} 
+{B2,FFFFFFF0,FFFFFF10} 
+{B2,FFFFF0F0,FFFF1010} 
+{B2,FFFFF0F0,FFFFA0A0} 
+{B3,FFFFFFF0,FFFFFF10} 
+{B3,FFFFF0F0,FFFF1010} 
+{B3,FFFFF0F0,FFFFA0A0} 
+{98,FFFFFFF0,FFFFFF10} 
+{98,FFFFF0F0,FFFF1010} 
+{98,FFFFF0F0,FFFFA0A0} 
+IF(TSWVER<20.17.0356)
+   Checking TSWVER V22320000 (1) against (20170356) V20.17.0356
+   FALSE
+NVR_CHK(0xC, 0x800, 0)
+   Checking NOVRAM 0xc 0x800 0x0  (00000887)
+   FALSE
+NVR_CHK(0xC, 0x800, 0)
+   Checking NOVRAM 0xc 0x800 0x0  (00000887)
+   FALSE
+COMPONENT 1 BIP_ 0xF480
+   Updating component 1 with file "update-components/BIP_1014.sre".
+   Filename:  'BIP_1014'
+   Version:   'V03.03.0021'
+   Add. Info: 'RELEASE_BUILT'
+   Version 0x03030021 is already onboard.
+   Skipping update.
+COMPONENT 2 BIP_ 0xF484
+   Updating component 2 with file "update-components/BIP_1014.sre".
+   Filename:  'BIP_1014'
+   Version:   'V03.03.0021'
+   Add. Info: 'RELEASE_BUILT'
+   Version 0x03030021 is already onboard.
+   Skipping update.
+COMPONENT 6 MLCA 0xF470
+   Updating component 6 with file "update-components/MLCA1314.sre".
+   Filename:  'MLCA1314'
+   Version:   'V03.00.0001'
+   Add. Info: ''
+   Version 0x03000001 is already onboard.
+   Skipping update.
+CSM 0003753A

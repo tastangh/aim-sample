@@ -1,0 +1,11 @@
+{
+    "AIM-BSP-Common": "4.36.0",
+    "ZYNQ-FSBL": "2016.3-aim5",
+    "ZYNQ-U-Boot": "2015.01-aim12",
+    "BIP_2010": "3.3.21",
+    "BIP_2012": "3.3.21",
+    "MLCA2110": "1.15.81",
+    "MIL-TSW": "22.32.0",
+    "Linux-XLNX": "6.1.30-aim2",
+    "AIM-Buildroot": "2023.08-aim3"
+}

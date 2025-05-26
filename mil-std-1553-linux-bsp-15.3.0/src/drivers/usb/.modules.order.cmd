@@ -1,0 +1,1 @@
+cmd_/home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/modules.order := {   echo /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/aim1553usb.ko; :; } | awk '!x[$$0]++' - > /home/aim/mil-std-1553-linux-bsp-15.3.0/src/drivers/usb/modules.order

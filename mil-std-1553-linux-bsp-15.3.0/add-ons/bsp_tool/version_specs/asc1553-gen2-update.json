@@ -1,0 +1,14 @@
+{
+    "AIM-BSP-Common": "4.36.0",
+    "FSBL": "MLCA3810/1.2.29/FSBL-PMUFW_2021.2-AIM1",
+    "PMU_FW": "MLCA3810/1.2.29/FSBL-PMUFW_2021.2-AIM1",
+    "ATF": "2021.2",
+    "U-Boot": "2021.2-aim2",
+    "BIP_3010": "3.3.21",
+    "BIP_3011": "3.3.21",
+    "asc1553-gen2-pd-nvm.txt": "MLCA3810/1.0.24/PD-NVM-AIM1",
+    "MLCA3810": "1.5.36",
+    "MIL-TSW": "22.32.0",
+    "Linux-XLNX-ZynqMP": "5.10.0-aim5",
+    "AIM-Buildroot-ZynqMP": "2021.02-aim3"
+}

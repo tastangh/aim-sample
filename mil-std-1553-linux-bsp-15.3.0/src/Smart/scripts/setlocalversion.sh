@@ -1,0 +1,65 @@
+#!/bin/sh
+
+# SPDX-FileCopyrightText: 2011-2021 AIM GmbH <info@aim-online.com>
+# SPDX-License-Identifier: MIT
+
+#
+# This scripts adds local version information from the version
+# control system git.
+#
+#
+
+
+scm_version()
+{
+    # Check for git and a git repo.
+    if test -d .git && head=`git rev-parse --verify --short HEAD 2>/dev/null`; then
+
+        # If we are at a tagged commit (like "v2.6.30-rc6"), we ignore
+        # it, because this version is defined in the top level configure.ac file.
+        if [ -z "`git describe --exact-match 2>/dev/null`" ]; then
+                
+           # If we are past a tagged commit (like
+            # "v2.6.30-rc5-302-g72357d5"), we pretty print it.
+            if atag="`git describe 2>/dev/null`"; then
+                echo "$atag" | awk -F- '{printf("-%05d-%s", $(NF-1),$(NF))}'
+
+            # If we don't have a tag at all we print -g{commitish}.
+            else
+                printf '%s%s' -g $head
+            fi
+        fi
+
+        # Update index only on r/w media
+        [ -w . ] && git update-index --refresh --unmerged > /dev/null
+
+        # Check for uncommitted changes
+        if [ ! -z "`git diff-index --name-only HEAD`" ] ; then
+            printf '%s' -dirty
+        fi
+    fi
+}
+
+usage() {
+    echo "Usage: $0 [srctree]" >&2
+    exit 1
+}
+cd $1/SmartCon || exit 1;
+
+
+
+# Get software version from CIV TSW Version file
+MAJOR_VERSION=`cat src/SmartConVersion.h | grep "#define SMART_MAJOR_VERSION" | cut -d' ' -f3`
+MINOR_VERSION=`cat src/SmartConVersion.h | grep "#define SMART_MINOR_VERSION" | cut -d' ' -f3`
+PATCH_VERSION=`cat src/SmartConVersion.h | grep "#define SMART_PATCH_VERSION" | cut -d' ' -f3`
+EXTRA_VERSION=`cat src/SmartConVersion.h | grep "#define SMART_EXTRA_VERSION" | cut -d' ' -f3`
+VERSION=${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}${EXTRA_VERSION}
+
+# Now change back to top-level directory and use git to get additional version information
+cd $1
+GIT_VERSION=`scm_version`
+
+
+echo ${VERSION}${GIT_VERSION}
+
+

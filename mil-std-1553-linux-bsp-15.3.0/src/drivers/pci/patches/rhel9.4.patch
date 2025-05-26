@@ -1,0 +1,25 @@
+From cb819807f2c62bbc3e1cb238321b84af333cb44a Mon Sep 17 00:00:00 2001
+From: Martin Haag <haag@aim-online.com>
+Date: Wed, 13 Nov 2024 09:31:07 +0100
+Subject: [PATCH] RHEL/Rocky 9.4 Kernel 5.14.0-427 patch
+
+---
+ src/aim_pci_module.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/aim_pci_module.c b/src/aim_pci_module.c
+index e6acc49..5f18504 100644
+--- a/src/aim_pci_module.c
++++ b/src/aim_pci_module.c
+@@ -316,7 +316,7 @@ static int __init init_pci_module(void)
+     driver_data.major = MAJOR(deviceID);
+     aim_info("Using major number %u\n", driver_data.major);
+ 
+-#if LINUX_VERSION_CODE < KERNEL_VERSION(6,4,0)
++#if LINUX_VERSION_CODE < KERNEL_VERSION(5,14,0)
+     driver_data.deviceClass = class_create(THIS_MODULE, AIM_DRV_NAME);
+ #else
+     driver_data.deviceClass = class_create(AIM_DRV_NAME);
+-- 
+2.34.1
+
